@@ -1,0 +1,342 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Portfolio</title>
+    <style type="text/css">
+    <!--
+        .h1
+        {
+            padding-top: 30px;
+            width: 100%;
+            border-bottom: 1px solid black;
+            font-family: Verdena;
+            font-size: 18px;
+        }
+        
+        #title
+        {
+            color: #AD944A;
+            font-size: 28px;
+            font-family: Garamond;
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 20px;
+        }
+        
+        TABLE#main, TABLE#main TR TD TABLE
+        {
+            width: 100%;
+            border: none;
+            vertical-align: top;
+        }
+        
+        TABLE#main TR TD TABLE TR TD
+        {
+            vertical-align: top;
+        }
+        
+        .screenshot
+        {
+            text-align    : right;
+            vertical-align: top  ;
+            width         : 200px;
+        }
+       
+        
+        .detail
+        {
+            display: none;
+        }
+
+        A:link, A:hover, A:active, A:visited
+        {
+            text-decoration: none;
+            color: #AD944A;
+        }
+    -->
+    </style>
+    <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+    <!--
+    // written by Sam Terburg
+        function toggleDetail(anchor)
+        {
+            table = anchor.nextSibling.nextSibling;
+            table.style.display == "" ? table.style.display = "none" : table.style.display = "";
+            return false;
+        }
+        
+        function screenshots(atag)
+        {
+            window.open(atag.href,'cv_screenshots','width=620,height=420,scrollbars=1');
+        }
+    //-->
+    </SCRIPT>
+</head>
+
+<body>
+<BR>
+<div id="title">PORTFOLIO</div>
+<BR>
+<table ID="main">
+    <tr>
+        <td class="h1"><A NAME="magicminds">MagicMinds</A></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">Exam Center (Lamark)</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://www.exam-center.com" TARGET="_blank">www.exam-center.com</A></td>
+                    <td rowspan="6" class="screenshot"><A HREF="http://www.lamark.com" TARGET="_blank"><IMG SRC="logos/lamark.gif" WIDTH="130" HEIGHT="55" ALT="www.lamark.com" BORDER="0"></A></td></tr>
+                <tr><td>Technieken:  </td><td>Java EJB (JDBC,JSP)</td></tr>
+                <tr><td>Platform:    </td><td>Tomcat+Apache, MySQL, Linux</td></tr>
+                <tr><td>Grootte team:</td><td>2 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>Het online kunnen boeken van examens.<BR>
+                                              Met uitgebreide backoffice waarin exam-centers hun examens kunnen invoeren<BR>
+                                              en callcenter-medewerkers boekingen kunnen muteren.<BR>
+                                              Mijn bijdrage was de gehele backend.<BR></td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="screenshots/lamark-1.gif" TARGET="_blank">BackOffice - Muteren boeking/klant</A></td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">Feyenoord</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://www.feyenoord.nl" TARGET="_blank">www.feyenoord.nl</A></td>
+                    <td rowspan="6" class="screenshot"><A HREF="http://www.feyenoord.nl" TARGET="_blank"><IMG SRC="http://cv.sam.verveeltzich.com/logos/feyenoord.gif" WIDTH="110" HEIGHT="108" ALT="www.feyenoord.nl" BORDER="0"></A></td></tr>
+                <tr><td>Technieken:  </td><td>Java EJB (JDBC,JSP), MMBase</td></tr>
+                <tr><td>Platform:    </td><td>Tomcat+Apache, MySQL, Linux</td></tr>
+                <tr><td>Grootte team:</td><td>7 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>Het ontwikkelen van de backend van www.feyenoord.nl.<BR>
+                                              Feyenoord.nl heeft aan aantal unieke concepten op hun site, zoals een java voetbal spel, webcams, speler van de week, team van het seizoen (stel je eigen team samen), een chat en een poll.<BR>
+                                              Samen met 1 collega hebben we de backend gemaakt.</td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="screenshots/feyenoord-1.gif" TARGET="_blank"></A></td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">Ilse</a><BR><table style="display:none">
+                <tr><td>Technieken:  </td><td>Perl, ApacheBench</td>
+                    <td rowspan="4" class="screenshot"><A HREF="http://www.ilse.nl" TARGET="_blank"><IMG SRC="http://cv.sam.verveeltzich.com/logos/ilse.gif" WIDTH="120" HEIGHT="70" ALT="www.ilse.nl" BORDER="0"></A></td></tr>
+                <tr><td>Platform:    </td><td>Tomcat+Apache, MySQL, Sun Solaris / FreeBSD / RedHat Linux</td></tr>
+                <tr><td>Grootte team:</td><td>2 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>Performance en security test van enkele Ilse Media websites die geconverteerd zijn naar MMBase/JSP sites.<BR>
+                                              Schrijven van nieuwe en bijwerken van bestaande Perl script ten behoeve van benchmarking.<BR>
+                                              Inrichten en tunen FreeBSD/Solaris, Apache, Tomcat, MMBase test-serveromgeving.</td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">EN</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td>www.en.nl (offline)</A></td>
+                    <td rowspan="6" class="screenshot">(no logo)</A></td></tr>
+                <tr><td>Technieken:  </td><td>Java J2EE (EJB,JSP, XHTML), OMCS, Photoshop</td></tr>
+                <tr><td>Platform:    </td><td>IBM WebSphere, Oracle, Sun Solaris</td></tr>
+                <tr><td>Grootte team:</td><td>3 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>Het verwerkelijken van de fontend van www.en.nl.<BR>
+                                              Hierbij werden Photoshop documenten aangeleverd welke omgezet moesten worden in XHTML om gebruikt te worden in OMCS (Open Market Content Management Solution).<BR>
+                                              OMCS gebruikt EJB in combinatie met XHTML om de frontend te genereren. Hierbij is gebruik gemaakt van complexe CSS, DHTML, HTML, XSL. </td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="screenshots/en-1.gif" TARGET="_blank"></A></td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">MagicMinds Component Base</a><BR><table style="display:none">
+                <tr><td>Technieken:  </td><td>Java J2EE (JSP,EJB, JDBC, .Servlets, TagLibs, ...)</td>
+                    <td rowspan="3" class="screenshot"><A HREF="http://www.magicminds.com" TARGET="_blank"><IMG SRC="http://cv.sam.verveeltzich.com/logos/magicminds.gif" WIDTH="84" HEIGHT="84" ALT="www.magicminds.com" BORDER="0"></A></td></tr>
+                <tr><td>Grootte team:</td><td>2 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>MCB is een verzameling standaard componenten van klein tot groot.<BR>
+                                              Hierbij moet men denken aan kleine dingen zoals een standaard database component, die het  zeer makkelijk maakt om data uit een database te halen tot grote componenten als standaard Chat en Forum elementen.<BR>
+                                              Hier wordt continue aan gewerkt, waarbij zorgvuldig eerst een FO en een TO wordt gemaakt aangezien deze componenten in vele projecten zullen worden toegepast.<BR>
+                                              Het MCB wordt volledige gemaakt in Java met technologieën als JDK, J2EE, Servlet, TagLibs, JSP, JDBC.</td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">Ego CreditCard (PostBank)</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="https://www.p3.postbank.nl/ego" TARGET="_blank">www.postbank.nl/ego</A></td>
+                    <td rowspan="6" class="screenshot"><A HREF="https://www.p3.postbank.nl/ego" TARGET="_blank"><IMG SRC="http://cv.sam.verveeltzich.com/logos/ego.gif" WIDTH="142" HEIGHT="54" ALT="www.postbank.nl/ego" BORDER="0"></A></td></tr>
+                <tr><td>Technieken:  </td><td>Java J2EE (EJB,JSP)</td></tr>
+                <tr><td>Platform:    </td><td>Netscape iPlanet, Oracle, Sun Solaris</td></tr>
+                <tr><td>Grootte team:</td><td>8 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>via Detachering bij IntApps.<BR>
+                                              Het is een site waarbij online het rekeningoverzicht te zien is van je EGO creditcard waarbij de backend communiceert met de VISA backend.<BR>
+                                              Tevens is er een beheer-backend voor de postbank medewerkers voor verscheidene mutatie werkzaamheden.<BR>
+                                              Deze site werd geïntroduceerd bijbehorend bij de introductie van de EGO creditcard.</td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="screenshots/ego-1.gif" TARGET="_blank"></A></td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">Barend & van Dorp</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://bvd.rtl4.nl" TARGET="_blank">bvd.rtl4.nl</A> (vernieuwd)</td>
+                    <td rowspan="6" class="screenshot"><A HREF="http://bvd.rtl4.nl" TARGET="_blank"><IMG SRC="http://cv.sam.verveeltzich.com/logos/bvd.gif" WIDTH="186" HEIGHT="130" ALT="bvd.rtl4.nl" BORDER="0"></A></td></tr>
+                <tr><td>Technieken:  </td><td>PHP, Perl, MySQL</td></tr>
+                <tr><td>Platform:    </td><td>Apache, Linux</td></tr>
+                <tr><td>Grootte team:</td><td>3 personen</td></tr>
+                <tr><td>Omschrijving:</td><td></td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="screenshots/bvd-1.gif" TARGET="_blank"></A></td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">Kane Live in Ahoy</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://www.kane.nl" TARGET="_blank">www.kane.nl</A> (online tijdens concerten)</td>
+                    <td rowspan="6" class="screenshot"><A HREF="http://www.kane.nl" TARGET="_blank"><IMG SRC="http://cv.sam.verveeltzich.com/logos/kane.jpg" ALT="www.kane.nl" WIDTH="236" HEIGHT="62" BORDER="0"></A></td></tr>
+                <tr><td>Technieken:  </td><td>ASP, MS-SQL-Server</td></tr>
+                <tr><td>Platform:    </td><td>IIS</td></tr>
+                <tr><td>Grootte team:</td><td>2 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>Het maken van een online shop voor het kopen van een 'virtual-seat'.<BR>
+                                              Op dezelfde site kun je dan inloggen en live streaming het concert bekijken.</td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="screenshots/kane-1.gif" TARGET="_blank"></A></td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">FIH Women Hockey Live</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://www.fihockey.org" TARGET="_blank">www.fihockey.org</A> (online tijdens wedstrijden)</td>
+                    <td rowspan="6" class="screenshot"><A HREF="http://www.fihockey.org" TARGET="_blank"><IMG SRC="http://cv.sam.verveeltzich.com/logos/fih.jpg" ALT="www.fihocket.org" WIDTH="125" HEIGHT="176" BORDER="0"></A></td></tr>
+                <tr><td>Technieken:  </td><td>ASP, MS-SQL-Server</td></tr>
+                <tr><td>Platform:    </td><td>IIS</td></tr>
+                <tr><td>Grootte team:</td><td>2 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>Het maken van een online shop voor het kopen van een 'virtual-seat' voor de word shampionship wedstrijden.<BR>
+                                              Op dezelfde site kun je dan inloggen en live streaming de wedstrijd bekijken.</td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="screenshots/fih-1.gif" TARGET="_blank"></A></td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">BackStream</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://www.backstream.nl" TARGET="_blank">www.backstream.nl</A></td>
+                    <td rowspan="6" class="screenshot"><A HREF="http://www.backstream.nl" TARGET="_blank"><IMG SRC="http://cv.sam.verveeltzich.com/logos/backstream.gif" ALT="www.backstream.nl" WIDTH="165" HEIGHT="30" BORDER="0"></A></td></tr>
+                <tr><td>Technieken:  </td><td>ASP, Visual Basic, COM+</td></tr>
+                <tr><td>Platform:    </td><td>IIS, MS-SQL-Server</td></tr>
+                <tr><td>Grootte team:</td><td>2 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>Gedetacheerd bij BackStream.<BR>
+                                              Meegeholpen aan de ontwikkeling van het Backstream pakket.<BR>
+                                              Dit is een flexibel Content Management Systeem welke met een simpele kleine stap geïntegreerd kan worden met een bestaande website/database.</td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="screenshots/backstream-1.gif" TARGET="_blank"></A></td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">PlanQ (CompuTron)</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://213.84.49.85/eportalscripts/mgrqispi93.dll?appname=CMS&prgname=Go&Mode=Screen&ComponentID=35&ObjectID=7" TARGET="_blank">www.computron.nl</A><BR>
+                                              <A HREF="http://www.kliq.nl/" TARGET="_blank">www.kliq.nl</A></td>
+                    <td rowspan="6" class="screenshot">(no logo)</td></tr>
+                <tr><td>Technieken:  </td><td>ASP, Visual Basic, COM+</td>
+                <tr><td>Platform:    </td><td>IIS, Oracle</td></tr>
+                <tr><td>Grootte team:</td><td>4 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>Meegeholpen aan de ontwikkeling van het PlanQ pakket.<BR>
+                                              Dit is het administratiepakket voor arbeidsvoorziening.
+                                              Hierin kan bijgehouden worden welke personen op welke cursus zitten, wat de status daarvan is en tenslotte kan er gefactureerd worden.</td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="screenshots/planq-1.gif" TARGET="_blank"></A></td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">FreeMail</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://www.freemail.nl" TARGET="_blank">www.freemail.nl</A> (vernieuwd)</td>
+                    <td rowspan="6" class="screenshot"><A HREF="http://www.freemail.nl" TARGET="_blank"><IMG SRC="http://cv.sam.verveeltzich.com/logos/freemail.gif" ALT="www.freemail.nl" WIDTH="188" HEIGHT="53" BORDER="0"></A></td></tr>
+                <tr><td>Technieken:  </td><td>PHP</td></tr>
+                <tr><td>Platform:    </td><td>Apache, MySQL</td></tr>
+                <tr><td>Grootte team:</td><td>3 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>Zoals de naam al zegt is dit een site waar je gratis een email adres kan registreren en via een web-interface je email kan lezen.<BR>
+                                              Verders is het ook een portal voor forums &amp; chats.</td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="screenshots/freemail-1.gif" TARGET="_blank"></A></td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">Tevema</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://www.tevema.com" TARGET="_blank">www.tevema.com</A></td>
+                    <td rowspan="6" class="screenshot"><A HREF="http://www.tevema.com" TARGET="_blank"><IMG SRC="http://cv.sam.verveeltzich.com/logos/tevema.gif" ALT="www.tevema.com" WIDTH="220" HEIGHT="133" BORDER="0"></A></td></tr>
+                <tr><td>Technieken:  </td><td>ASP</td></tr>
+                <tr><td>Platform:    </td><td>IIS, MS Access</td></tr>
+                <tr><td>Grootte team:</td><td>1 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>Online shop voor verkoop van veren.</td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="screenshots/freemail-1.gif" TARGET="_blank"></A></td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">MasterMind</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://www.magicminds.com" TARGET="_blank">www.magicminds.com</A></td>
+                    <td rowspan="6" class="screenshot"><A HREF="http://www.magicminds.com" TARGET="_blank"><IMG SRC="http://cv.sam.verveeltzich.com/logos/magicminds.gif" ALT="www.magicminds.com" WIDTH="84" HEIGHT="84" BORDER="0"></A></td></tr>
+                <tr><td>Technieken:  </td><td>PostFix, Courier-Imap, MailDrop, Fetchmail, Postgres, Apache, Perl, bind, dhcpd, samba, netatalk, openldap, iptables, trustees</td></tr>
+                <tr><td>Platform:    </td><td>RedHat Linux 7.3</td></tr>
+                <tr><td>Grootte team:</td><td>3 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>Een out-of-the-box server voor het MKB geschik voor de meest voorkomende zaken binnen een netwerk.<BR>
+                                              Je installeert de server binnen 15 minuten vanaf een cd. Daarna biedt een simpele gebruikersvriendelijke web-interface configuratie mogelijkheden zoals het aanmaken van gebruikers en window-shares.<BR>
+                                              Hierdoor hoeft een klein bedrijf geen ingewikkelde server meer de installeren.<BR>
+                                              Remote biedt magicminds support zoals automatische updates.</td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="screenshots/mastermind-1.gif" TARGET="_blank"></A></td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">Overig</a><BR><table style="display:none">
+                <tr><td>URLs:</td><td><A HREF="http://www.magicminds.com" TARGET="_blank">www.magicminds.com</A> (vernieuwd)</td><td>- </td><td>- TO, PHP, MySQL, Perl</td></tr>
+                <tr><td>     </td><td>www.splits.nl</A> (offline)</td><td>- online vragen spel (bekend van tv) </td><td>- Flash4</td></tr>
+                <tr><td>     </td><td>www.4getit.nl</A> (komt nooit online)</td><td>- online bord spel </td><td>- Flash5</td></tr>
+                <tr><td>     </td><td><A HREF="http://www.snowworld.nl" TARGET="_blank">www.snowworld.nl</A></td><td>- WebCams</td><td>- Axis</td></tr>
+                <tr><td>     </td><td><A HREF="http://www.onzenormenenwaarden.nl" TARGET="_blank">www.onzenormenenwaarden.nl</A></td><td>- </td><td>- JSP/Java</td></tr>
+                <tr><td>     </td><td><A HREF="http://www.bvik.nl" TARGET="_blank">www.bvik.nl</A></td><td>- </td><td>- ASP</td></tr>
+                <tr><td>     </td><td><A HREF="http://www.lamark.com" TARGET="_blank">www.lamark.com</A></td><td>- Content Management</td><td>- JSP/MMBase</td></tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="h1"><A NAME="emanon">Emanon</A></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">PSPeopleStock</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://www.pspeoplestock.com" TARGET="_blank">www.pspeoplestock.com</A></td>
+                    <td rowspan="6" class="screenshot"><A HREF="http://www.pspeoplestock.com" TARGET="_blank"><IMG SRC="http://cv.sam.verveeltzich.com/logos/psps.gif" ALT="www.pspeoplestock.com" WIDTH="120" HEIGHT="95" BORDER="0"></A></td></tr>
+                <tr><td>Technieken:  </td><td>ASP, COM+, ActiveX, ADO, Visual Basic</td></tr>
+                <tr><td>Platform:    </td><td>IIS, Oracle, Windows 2000</td></tr>
+                <tr><td>Grootte team:</td><td>2 personen</td></tr>
+                <tr><td>Omschrijving:</td><td>Het ontwerpen,bouwen &amp; implementeren van een volwaardige intranet applicatie voor aandelen participatie voor medewerkers.<BR>
+                                              Dit is een continue lopend project. 
+                                              Aangezien elke klant z'n eigen wensen/regels heeft is dit telkens maatwerk bovenop een standaard.<BR>
+                                              Hiervoor heb ik een COM+ object gemaakt dat simpelweg een database tabel omzet in een 'muteerbaar' html tabel (zie screenshots) welke erg flexibel is en waardoor heel snel geprogrammeerd kan worden.</td></tr>
+                <tr><td>Screenshots:</td><td><A HREF="http://www.psps.nl/screenshots.html" TARGET="_blank">PSPeopleStock</A></td></tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="h1"><A NAME="bit">Business Internet Trends</A></td>
+    </tr>
+    <tr>
+        <td>
+            <table>
+                <tr><td><A HREF="http://www.simonis-buunk.nl/" TARGET="_blank">www.simonis-buunk.nl</A>      </td><td>- </td><td>- photoshop, html</td></tr>
+                <tr><td><A HREF="http://www.chrysler-jeep.nl/" TARGET="_blank">www.chrysler-jeep.nl</A>      </td><td>- </td><td>- photoshop, html</td></tr>
+                <tr><td><A HREF="http://www.kerio.nl/"         TARGET="_blank">www.kerio.nl</A>              </td><td>- </td><td>- photoshop, html</td></tr>
+                <tr><td><A HREF="http://www.kunstzaken.com/"   TARGET="_blank">www.kunstzaken.com</A>        </td><td>- </td><td>- photoshop, html</td></tr>
+                <tr><td><A HREF="http://www.flair.nl/"         TARGET="_blank">www.flair.nl</A>              </td><td>- </td><td>- photoshop, html</td></tr>
+                <tr><td><A HREF="http://www.allsurplusworld.com/" TARGET="_blank">www.allsurplusworld.com</A></td><td>- </td><td>- photoshop, html</td></tr>
+                <tr><td><A HREF="http://www.123krediet.nl/"    TARGET="_blank">www.123krediet.nl</A>         </td><td>- kredietberekeningen</td><td>- php</td></tr>
+                <tr><td><A HREF="http://www.ioc.nl/"           TARGET="_blank">www.ioc.nl</A>                </td><td>- </td><td>- photoshop, html</td></tr>
+                <tr><td><A HREF="http://www.linuxcursus.nl/"   TARGET="_blank">www.linuxcursus.nl</A>        </td><td>- </td><td>- photoshop, html</td></tr>
+                <tr><td><A HREF="http://www.rabbitsoft.nl/"    TARGET="_blank">www.rabbitsoft.nl</A>         </td><td>- </td><td>- photoshop, html</td></tr>
+                <tr><td><A HREF="http://www.vanderloo.nl/"     TARGET="_blank">www.vanderloo.nl</A>          </td><td>- </td><td>- photoshop, html</td></tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="h1"><A NAME="prive">Prive</A></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">HTMLeditor</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://htmleditor.focuz.verveeltzich.com" TARGET="_blank">htmleditor.verveeltzich.com</A></td>
+                <tr><td>Technieken:  </td><td>HTML, DHTML, CSS, PHP</td></tr>
+                <tr><td>Platform:    </td><td>Apache, Linux</td></tr>
+                <tr><td>Omschrijving:</td><td>een HTML-editor geschreven in html</td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">Apache Log</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://logs.admin.verveeltzich.com" TARGET="_blank">logs.admin.verveeltzich.com</A></td>
+                <tr><td>Technieken:  </td><td>PHP</td></tr>
+                <tr><td>Platform:    </td><td>Apache, Linux</td></tr>
+                <tr><td>Omschrijving:</td><td>Apache logt (access) naar een MySQL database (named pipe).<BR>
+                                              Door middel van deze site kun je de desgewenste gegevens eruit filteren.<BR>
+                                              Simplicity at it's best.</td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">CV</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://cv.focuz.verveeltzich.com" TARGET="_blank">cv.sam.verveeltzich.com</A></td>
+                <tr><td>Technieken:  </td><td>HTML</td></tr>
+                <tr><td>Platform:    </td><td>Apache, Linux</td></tr>
+                <tr><td>Omschrijving:</td><td>Mijn online CV & Portfolio (deze site).</td></tr>
+            </table>
+
+            <a href="gedetailleerd..." title="gedetailleerd" onClick="return toggleDetail(this);">Events</a><BR><table style="display:none">
+                <tr><td>URL:         </td><td><A HREF="http://events.focuz.verveeltzich.com" TARGET="_blank">events.sam.verveeltzich.com</A></td>
+                <tr><td>Technieken:  </td><td>PHP</td></tr>
+                <tr><td>Platform:    </td><td>Apache, Linux</td></tr>
+                <tr><td>Omschrijving:</td><td>Foto log van evenementen waar ik naartoe ben geweest.</td></tr>
+            </table>
+        </td>
+    </tr>
+
+</table>
+
+
+</body>
+</html>
